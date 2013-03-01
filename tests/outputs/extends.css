@@ -82,3 +82,10 @@ wassup {
 
 .edit .new .actions {
   padding: 0; }
+
+#content .social-login {
+  display: block; }
+  #content .social-login .facebook, #content .social-login .twitter {
+    color: white; }
+  #content .social-login .twitter {
+    color: blue; }

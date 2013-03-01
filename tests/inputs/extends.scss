@@ -58,7 +58,7 @@ code {
 }
 
 
-// chained 
+// chained
 
 .alpha {
     color: red;
@@ -170,4 +170,21 @@ wassup {
       @extend .btn;
    }
  }
+}
+
+// suboptimal
+
+#content {
+    .social-login {
+        display: block;
+
+        .facebook {
+            color: white;
+        }
+
+        .twitter {
+            @extend .facebook;
+            color: blue;
+        }
+    }
 }
