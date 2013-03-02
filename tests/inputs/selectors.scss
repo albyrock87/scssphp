@@ -185,3 +185,31 @@ div {
     }
 }
 
+// subject selector
+header %component {
+  margin-bottom: 0;
+}
+%component! ol {
+  padding-left: 20px;
+}
+
+section! .widget { @extend %component; }
+
+// another
+%foo {
+  color: red;
+  background-color: gray;
+
+}
+%foo:hover {
+   background-color: yellow;
+}
+
+.bar! .stuff { @extend %foo; }
+
+// and another
+aside %part! ol {
+  padding-left: 20px;
+}
+
+footer .segment! a { @extend %part; }

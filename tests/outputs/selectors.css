@@ -333,3 +333,23 @@ div.foo div {
 
 .nice-fonts .main .message div .title, .nice-fonts div .message div .title {
   font-size: 24px; }
+
+header section! .widget {
+  margin-bottom: 0; }
+
+section! .widget ol,
+section! ol .widget {
+  padding-left: 20px; }
+
+.bar! .stuff {
+  color: red;
+  background-color: gray; }
+
+.bar:hover! .stuff {
+  background-color: yellow; }
+
+aside footer .segment! a ol,
+footer aside .segment! a ol,
+aside footer .segment! ol a,
+footer aside .segment! ol a {
+  padding-left: 20px; }
